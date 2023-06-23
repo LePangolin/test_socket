@@ -1,0 +1,119 @@
+.col-8{
+    width: 100vw;
+    height: 80vh;
+}
+
+.col-1{
+    width: 100vw;
+    height: 10vh;
+}
+
+.row-9{
+    width: 80vw;
+    height: 100%;
+}
+
+.row-1{
+    width: 20vw;
+    height: 100%;
+}
+
+.line-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    border: 1px solid black;
+}
+
+.envoyer{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.envoie-container{
+    /* align item in center */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    cursor: pointer;
+}
+
+.messageHistorique{
+    border: 1px solid black;
+}
+
+.message-container{
+    height: 100%;
+    max-height: 100%;
+    width: 100%;
+    max-width: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.message-recu{
+    width: 100%;
+    height: 10%;
+    font-size: 2.5em;
+    border: none;
+    border-left: 1px solid black;
+}
+
+.message{
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+    word-break: break-all;
+    font-size: 2.5em;
+    border: none;
+    border-right: 1px solid black;
+}
+
+center{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    margin: 0;
+    padding-top: 0.1%;
+}
+
+.titre{
+    border: 1px solid black;
+}
+
+html{
+    margin: 0;
+    padding: 0;
+    max-width: 100vw;
+    max-height: 100vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    max-width: 100vw;
+    max-height: 100vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+:root{
+    margin: 0;
+    padding: 0;
+    max-width: 100vw;
+    max-height: 100vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
